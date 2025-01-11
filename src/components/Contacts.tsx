@@ -17,7 +17,7 @@ const Contacts = () => {
                 <h3 className="text-xl font-semibold">{contact.type}</h3>
               </div>
               <p className="text-gray-700">{contact.value}</p>
-              {contact.type === 'LinkedIn' && (
+              {contact.type === 'LinkedIn'|| contact.type === 'Github' || contact.type === 'Instagram' || contact.type === 'Facebook' && (
                 <a
                   href={contact.value}
                   target="_blank"
