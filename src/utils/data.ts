@@ -4,7 +4,7 @@ export const projects = [
       id: 1,
       title: 'Personal Portfolio',
       description: 'A modern portfolio showcasing my projects and skills.',
-      link: 'https://yourportfolio.com',
+      link: 'https://portofolio-urts-dr71e6tsf-noelzeyns-projects.vercel.app',
     },
     {
       id: 2,
@@ -48,11 +48,14 @@ export const projects = [
         title: 'HTML'
     },
     {
-        id:8,
+        id:9,
         title: 'CSS'
     },
+    {
+        id:10,
+        title: 'JavaScript'
+    },
   ]
-//   const skills = ['Next.js', 'React.js', 'TypeScript', 'Tailwind CSS', 'Node.js'];
 export const contacts = [
     {
       id: 1,

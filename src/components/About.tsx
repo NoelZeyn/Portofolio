@@ -9,7 +9,7 @@ const About = () => {
       <div className="absolute bottom-0 right-0 w-60 h-60 bg-blue-500 rounded-full blur-3xl opacity-30 transform translate-x-1/2 translate-y-1/2"></div>
 
       {/* Container 1: Profile Picture */}
-      <div className="container1 mx-auto px-10 flex justify-center mb-8">
+      <div className="container mx-auto px-6 flex justify-center mb-8">
         <div className="relative group">
           {/* Profile Image */}
           <div className="w-40 h-40 rounded-full overflow-hidden shadow-lg transform group-hover:scale-105 group-hover:rotate-3 transition-transform duration-500">
@@ -30,15 +30,12 @@ const About = () => {
       </div>
 
       {/* Container 2: About Text */}
-      <div className="container2 mx-auto px-6 text-center">
+      <div className="container mx-auto px-6 text-center">
         <h2 className="text-3xl text-black font-bold mb-4 transition-transform duration-500 hover:scale-105">
           About Me
         </h2>
         <p className="text-gray-700 leading-relaxed max-w-3xl mx-auto">
-          Hi, Im Ahmad Akrom Kamaluddin, a passionate software developer
-          specializing in web development. I enjoy building interactive and
-          user-friendly web applications with modern technologies like Next.js,
-          React.js, and Tailwind CSS.
+          Hi, I'm Ahmad Akrom Kamaluddin, a passionate software developer specializing in web development. I enjoy building interactive and user-friendly web applications with modern technologies like Next.js, React.js, and Tailwind CSS.
         </p>
 
         {/* Animated Call to Action Button */}
