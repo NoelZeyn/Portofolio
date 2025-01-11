@@ -5,7 +5,9 @@ const Contacts = () => {
   return (
     <section id="contacts" className="py-16 bg-white">
       <div className="container mx-auto px-6">
-        <h2 className="text-black text-3xl font-bold mb-8 text-center">Contact Information</h2>
+        <h2 className="text-black text-3xl font-bold mb-8 text-center">
+          Contact Information
+        </h2>
         <div className="text-gray-700 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {contacts.map((contact) => (
             <div
@@ -16,8 +18,7 @@ const Contacts = () => {
                 <span className="text-2xl mr-4">{contact.icon}</span>
                 <h3 className="text-xl font-semibold">{contact.type}</h3>
               </div>
-              <p className="text-gray-700">{contact.value}</p>
-              {contact.type === 'LinkedIn'|| contact.type === 'Github' || contact.type === 'Instagram' || contact.type === 'Facebook' && (
+              {contact.value.startsWith('http') ? (
                 <a
                   href={contact.value}
                   target="_blank"
@@ -26,6 +27,8 @@ const Contacts = () => {
                 >
                   View Profile
                 </a>
+              ) : (
+                <p className="text-gray-700">{contact.value}</p>
               )}
             </div>
           ))}
