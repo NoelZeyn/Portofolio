@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from 'react';
 import Header from '@/components/Header';
@@ -7,11 +7,13 @@ import Projects from '@/components/Projects';
 import Skills from '@/components/Skills';
 import Contacts from '@/components/Contacts';
 import BackToTop from '@/components/BackToTop';
+import ThemeToggle from '@/components/ThemeToggle'; // Import komponen ThemeToggle
 
 export default function Home() {
   return (
     <div>
       <Header />
+      <ThemeToggle /> {/* Letakkan tombol toggle tema */}
       <main>
         <About />
         <Projects />
@@ -19,7 +21,6 @@ export default function Home() {
         <Contacts />
       </main>
       <BackToTop />
-
     </div>
   );
 }

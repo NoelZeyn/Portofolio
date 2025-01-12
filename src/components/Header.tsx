@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-
+import Link from 'next/link';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -18,12 +18,12 @@ const Header = () => {
           <ul className="flex space-x-6">
             {['About', 'Projects', 'Skills', 'Contacts'].map((item) => (
               <li key={item}>
-                <a
+                <Link
                   href={`#${item.toLowerCase()}`}
                   className="hover:text-blue-400 transition-all duration-300"
                 >
                   {item}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -59,13 +59,13 @@ const Header = () => {
           <ul className="space-y-4">
             {['About', 'Projects', 'Skills', 'Contacts'].map((item) => (
               <li key={item}>
-                <a
+                <Link
                   href={`#${item.toLowerCase()}`}
                   className="block hover:text-blue-400 transition-all duration-300"
                   onClick={toggleMenu}
                 >
                   {item}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
