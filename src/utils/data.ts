@@ -8,9 +8,9 @@ export const projects = [
     },
     {
       id: 2,
-      title: 'E-Commerce Platform',
-      description: 'An e-commerce website with responsive design and cart functionality.',
-      link: 'https://yourecommerce.com',
+      title: 'Trivia Game',
+      description: 'A Game website with responsive design and leaderboard functionality.',
+      link: 'trivia-lake-one.vercel.app',
     },
   ];
 
