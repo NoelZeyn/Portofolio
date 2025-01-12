@@ -39,7 +39,7 @@ const About = () => {
       </div>
 
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl text-black font-bold mb-4 transition-transform duration-500 hover:scale-105">
+        <h2 className="text-white text-3xl font-bold mb-4 transition-transform duration-500 hover:scale-105">
           About Me
         </h2>
         <p className="text-white leading-relaxed max-w-3xl mx-auto">
