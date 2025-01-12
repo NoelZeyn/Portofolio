@@ -1206,7 +1206,7 @@ var pJS = function(tag_id, params){
     /* set color to svg element */
     var svgXml = pJS.tmp.source_svg,
         rgbHex = /#([0-9A-F]{3,6})/gi,
-        coloredSvgXml = svgXml.replace(rgbHex, function (m, r, g, b) {
+        coloredSvgXml = svgXml.replace(rgbHex, function (_m, r, g, b) {
           if(p.color.rgb){
             var color_value = 'rgba('+p.color.rgb.r+','+p.color.rgb.g+','+p.color.rgb.b+','+p.opacity+')';
           }else{

@@ -1,6 +1,9 @@
 declare global {
     interface Window {
-      particlesJS: any; // Declare the particlesJS property as 'any'
+      particlesJS: {
+        (tagId: string, options: object): void;
+        load: (tagId: string, configPath: string, callback?: () => void) => void;
+      };
     }
   }
   
