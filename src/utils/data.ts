@@ -4,7 +4,7 @@ export const projects = [
       id: 1,
       title: 'Personal Portfolio',
       description: 'A modern portfolio showcasing my projects and skills.',
-      link: 'https://portofolio-urts-dr71e6tsf-noelzeyns-projects.vercel.app',
+      link: 'https://portofolio-mo52.vercel.app',
     },
     {
       id: 2,
