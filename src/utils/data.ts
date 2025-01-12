@@ -10,7 +10,7 @@ export const projects = [
       id: 2,
       title: 'Trivia Game',
       description: 'A Game website with responsive design and leaderboard functionality.',
-      link: 'trivia-lake-one.vercel.app',
+      link: 'https://trivia-lake-one.vercel.app',
     },
   ];
 
