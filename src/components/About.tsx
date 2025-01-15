@@ -33,7 +33,7 @@ const About = () => {
             <Image src="/fotoku.jpg" alt="Ahmad Akrom Kamaluddin" width={160} height={160} className="object-cover" />
           </div>
           <div className="absolute bottom-0 left-0 right-0 text-center bg-white py-2 rounded-b-full shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-            <p className="text-sm text-gray-700 font-semibold">Software Developer</p>
+            <p className="text-sm text-gray-700 font-semibold">Student</p>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@ const About = () => {
           About Me
         </h2>
         <p className="text-white leading-relaxed max-w-3xl mx-auto">
-          Hi, I&apos;m Ahmad Akrom Kamaluddin, a passionate software developer specializing in web development. I enjoy building interactive and user-friendly web applications with modern technologies like Next.js, React.js, and Tailwind CSS.
+        An Information Technology student with strong analytical skills, high attention to detail, and adaptability in new situations. I have organizational experience that enables  me to work effectively in dynamic situations, both independently and as part of a team.
         </p>
         <div className="mt-8">
           <a
