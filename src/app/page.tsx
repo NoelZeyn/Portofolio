@@ -7,7 +7,7 @@ import Projects from '@/components/Projects';
 import Skills from '@/components/Skills';
 import Contacts from '@/components/Contacts';
 import BackToTop from '@/components/BackToTop';
-import ThemeToggle from '@/components/ThemeToggle'; // Import komponen ThemeToggle
+// import ThemeToggle from '@/components/ThemeToggle'; 
 
 export default function Home() {
   return (
