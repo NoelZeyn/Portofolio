@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <ThemeToggle /> {/* Letakkan tombol toggle tema */}
+      {/* <ThemeToggle /> Letakkan tombol toggle tema */}
       <main>
         <About />
         <Projects />
