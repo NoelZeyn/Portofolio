@@ -14,8 +14,14 @@ export const projects = [
     },
     {
       id: 3,
-      title: 'Music Platform',
-      description: '(ONGOING PROJECT) Music Platform with authentication',
+      title: 'Documentation Data Science Project',
+      description: 'Analysis and Visualitation earthquake data 2008–2022, Java Region',
+      link: 'https://docs.google.com/document/d/1Nnua451BUnxm-RqBGzFDHgI2pwkso_UZZBs3CBCP8rQ/edit?usp=sharing',
+    },
+    {
+      id: 4,
+      title: 'Music Platform (ONGOING PROJECT) ',
+      description: 'Music Platform with authentication',
       link: 'https://musicplat.vercel.app',
     },
   ];
