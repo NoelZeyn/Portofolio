@@ -12,6 +12,12 @@ export const projects = [
       description: 'A Game website with responsive design and leaderboard functionality.',
       link: 'https://trivia-lake-one.vercel.app',
     },
+    {
+      id: 3,
+      title: 'Music Platform',
+      description: '(ONGOING PROJECT) Music Platform with authentication',
+      link: 'https://musicplat.vercel.app',
+    },
   ];
 
   export const skills = [
