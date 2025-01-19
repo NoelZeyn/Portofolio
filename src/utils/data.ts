@@ -20,8 +20,8 @@ export const projects = [
     },
     {
       id: 4,
-      title: 'Music Platform (ONGOING PROJECT) ',
-      description: 'Music Platform with authentication',
+      title: 'Music Platform, User Forum, Admin Management (ONGOING PROJECT)',
+      description: 'Music Platform with authentication to general & admin',
       link: 'https://musicplat.vercel.app',
     },
   ];
