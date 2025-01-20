@@ -64,9 +64,13 @@ export const projects = [
         title: 'CSS'
     },
     {
-        id:10,
-        title: 'JavaScript'
-    },
+      id:10,
+      title: 'Supabase'
+  },
+  {
+      id:11,
+      title: 'Vercel'
+  },
   ]
 export const contacts = [
     {
